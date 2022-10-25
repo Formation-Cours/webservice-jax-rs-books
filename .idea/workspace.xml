@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11befa1b-3592-454d-a666-ca6962653c0f" name="Changes" comment="First commit but App work">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="11befa1b-3592-454d-a666-ca6962653c0f" name="Changes" comment="Ajout du readme avec images">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/books.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,11 +37,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/olprog/IdeaProjects/java-bdd/src/main/java/fr/webforce"
+    "last_opened_file_path": "/Users/olprog/IdeaProjects/java-bdd/images_git"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images_git" />
       <recent name="$PROJECT_DIR$/src/main/java/fr/webforce" />
     </key>
   </component>
@@ -80,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666702759941</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ajout du readme avec images">
+      <created>1666703350827</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666703350827</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit but App work" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit but App work" />
+    <MESSAGE value="Ajout du readme avec images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout du readme avec images" />
   </component>
 </project>

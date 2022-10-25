@@ -1,5 +1,12 @@
 # WebService Books pour formation avec JAX-RS
 
+Avant de démarrer le projet:
+- Exécuter le fichier `books.sql` à la racine du projet dans votre console SQL (PhpMyAdmin, MySQLWorkbench, cli, etc.)
+- Changer le nom d'utilisateur dans `fr.webforce.configurations.BDD`
+- ainsi que le mot de passe
+
+Puis lancer le projet.
+
 Une fois le projet démarré, il faut accéder à l'url via un Navigateur Web ou une application de requête (insomnia, postman, curl , etc.).
 
 Les Urls disponibles sont :
