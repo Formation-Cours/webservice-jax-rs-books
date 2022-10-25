@@ -1,18 +1,32 @@
 package fr.webforce.configurations;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.Properties;
 
 public class BDD {
+
+	private static final Properties props = new Properties();
+
+	static {
+		try(FileInputStream fis = new FileInputStream("bdd.properties")){
+			props.load(fis);
+		} catch (IOException e) {
+			throw new RuntimeException(e);
+		}
+	}
+
 	public static Connection getConnection() {
 		Connection conn;
 		try {
-			Class.forName("com.mysql.cj.jdbc.Driver");
+			Class.forName(props.getProperty("jdbc.driver.class"));
 			conn = DriverManager.getConnection(
-					"jdbc:mysql://localhost:3306/bibliotheque",
-					"forma",
-					"samsamsam"
+					props.getProperty("jdbc.url"),
+					props.getProperty("jdbc.user"),
+					props.getProperty("jdbc.password")
 			);
 		} catch (ClassNotFoundException | SQLException e) {
 			throw new RuntimeException(e);

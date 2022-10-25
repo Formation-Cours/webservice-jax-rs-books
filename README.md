@@ -2,8 +2,7 @@
 
 Avant de démarrer le projet:
 - Exécuter le fichier `books.sql` à la racine du projet dans votre console SQL (PhpMyAdmin, MySQLWorkbench, cli, etc.)
-- Changer le nom d'utilisateur dans `fr.webforce.configurations.BDD`
-- ainsi que le mot de passe
+- Changer les informations dans bdd.properties avec les votres
 
 Puis lancer le projet.
 
