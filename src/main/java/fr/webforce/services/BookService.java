@@ -81,4 +81,24 @@ public class BookService {
 			return Optional.of(-1);
 		}
 	}
+	public Optional<Integer> update(BookEntity book) {
+		var request = "UPDATE livre SET isbn = ?, titre = ?, auteur_nom = ?, auteur_prenom = ?, editeur = ?, annee = ? WHERE isbn = ?";
+		try (PreparedStatement st = conn.prepareStatement(request)) {
+			st.setString(1, book.isbn());
+			st.setString(2, book.titre());
+			st.setString(3, book.auteurNom());
+			st.setString(4, book.auteurPrenom());
+			st.setString(5, book.editeur());
+			st.setString(6, book.annee());
+			st.setString(7, book.isbn());
+			int nb = st.executeUpdate();
+			if (nb > 0) {
+				return Optional.of(nb);
+			}
+			return Optional.empty();
+
+		} catch (SQLException e) {
+			return Optional.of(-1);
+		}
+	}
 }

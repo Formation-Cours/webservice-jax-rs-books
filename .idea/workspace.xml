@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11befa1b-3592-454d-a666-ca6962653c0f" name="Changes" comment="Ajout d'un fichier SQL pour créer et remplir la BDD.">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bdd.properties" afterDir="false" />
+    <list default="true" id="11befa1b-3592-454d-a666-ca6962653c0f" name="Changes" comment="Ajout d'un fichier properties afin de rassembler nos informations de connexions à la BDD">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fr/webforce/configurations/BDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/webforce/configurations/BDD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bdd.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bdd.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/webforce/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/webforce/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/fr/webforce/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fr/webforce/services/BookService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,13 +35,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/olprog/IdeaProjects/java-bdd/images_git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/olprog/IdeaProjects/java-bdd/images_git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images_git" />
@@ -100,7 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666704637802</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ajout d'un fichier SQL pour créer et remplir la BDD.">
+      <created>1666707093332</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666707093332</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ajout d'un fichier properties afin de rassembler nos informations de connexions à la BDD">
+      <created>1666707143857</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666707143858</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +133,7 @@
     <MESSAGE value="First commit but App work" />
     <MESSAGE value="Ajout du readme avec images" />
     <MESSAGE value="Ajout d'un fichier SQL pour créer et remplir la BDD." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout d'un fichier SQL pour créer et remplir la BDD." />
+    <MESSAGE value="Ajout d'un fichier properties afin de rassembler nos informations de connexions à la BDD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout d'un fichier properties afin de rassembler nos informations de connexions à la BDD" />
   </component>
 </project>
